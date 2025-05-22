@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+header a{
+    color: white;
+    font-weight: bold;
+}
+.soldes{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.langue{
+    margin-right: 50px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(185, 183, 183);
+}
+.titre{
+    font-size: 14px;
+    margin-left: 80px;
+}
+.onglets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.onglets a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: auto;
+}
+.onglets a:hover{
+    font-weight: bold;
+}
+main{
+    height: 1000px;
+}
+form{
+     background-color: #f3f2f2;
+     width: 180px;
+     height: 20px;
+     border: none;
+     border-radius: 5px;
+     margin-top: 8px;
+     padding: 5px;
+}
+form a{
+    margin-top: 5px;
+}
+input[type = "search"]{
+    background-color: #f3f2f2;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin: auto;
+}
+.icones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.icones a{
+    padding: 10px;
+    color: black;
+}
+.icones a i:hover{
+    transform: translate(3px);
+}
+.ligne1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 50px 50px;
+}
+.ligne1 input[type="button"]{
+    background-color: white;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
+input[type="button"]:hover{
+    background-color: black;
+    color: white;
+}
+.ligne2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ligne2 .carte1{
+    background-image: url(imgs/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+
+.ligne2 .carte2{
+    background-image: url(imgs/img2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.ligne2 .carte3{
+    background-image: url(imgs/img3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.designation{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+}
+.designation p:nth-child(2){
+    color: black;
+    font-weight: 100;
+}
+.ligne2 .carte4{
+    background-image: url(imgs/img4.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.article1 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.article2 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.article3 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.article4 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.ligne2 input[type = "button"]{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+}
+.ligne3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 50px 10px;
+}
+.ligne3 input[type="button"]{
+    background-color: white;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.ligne3 input[type="button"]:hover{
+    background-color: black;
+    color: white;
+}
+
+.ligne4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.ligne4 .carte5{
+    background-image: url(imgs/img5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.ligne4 .carte6{
+    background-image: url(imgs/img6.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.ligne4 .carte7{
+    background-image: url(imgs/img7.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.ligne4 .carte8{
+    background-image: url(imgs/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 50px;
+}
+.article5 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.article6 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.article7 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.article8 form{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 20px;
+    margin-top: 0;
+    margin: 50px;
+    border-radius:  0px;
+    border-radius: 1px;
+    border: none;
+}
+.ligne4 input[type = "button"]{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:black ;
+    color: white;
+    height: 300px;
+    padding: 30px;
+}
+footer li{
+    padding: 5px;
+    list-style: none;
+    font-size: 10px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+.liens1 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  black;
+    border: 1px solid white;
+    width: 130px;
+    height: 20px;
+
+}
+.liens1 input[type="email"]{
+    background-color: black;
+    border: none;
+    width: 90px;
+    height: 20px;
+}
+.liens1 a{
+    margin-right: 20px;
+}

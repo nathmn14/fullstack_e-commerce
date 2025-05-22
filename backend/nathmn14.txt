@@ -1,0 +1,4 @@
+Je le ferai avec du js 
+On garde ces mini fichiers pour lister nos fonctionnalites ou glisser des mini guides
+ou recommandation sur le code. 
+
